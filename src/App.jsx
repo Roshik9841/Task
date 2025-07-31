@@ -37,6 +37,7 @@ function App() {
             data-aos="fade-up"
             className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-lg"
           >
+            <button className="bg-gradient-to-r from-pink-500 to-blue-500 px-5 py-2 rounded-lg mb-5 cursor-pointer" onClick={()=>setShowParagraph(false)}>Back</button>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Happy National Girlfriend Day to the most wonderful person in my life! 💖 I just want to take a moment to tell you how much you mean to me baby. 
             Since the day you came into my life, everything has felt brighter, happier, and more meaningful. You’ve brought laughter to my dull days and 
